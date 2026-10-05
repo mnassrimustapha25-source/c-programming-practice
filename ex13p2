@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    double PNET , PBRUT;
+    int   TVA;
+    printf("entrer le prix BUT:\n");
+    scanf("%lf",&PBRUT);
+    printf("entrer le taux de TVA:\n");
+    scanf("%d",&TVA);
+    PNET=PBRUT+PBRUT*TVA/100;
+    printf("Le prix net est de %f :",PNET);
+    return 0;
+}
